@@ -23,7 +23,7 @@ function printContent(el) {
 <!-- Main content -->
 <section class="content">
     <div class="box box-primary">
-        <form action="<?=base_url('raport/cetak_leger');?>" method="post">
+        <form action="<?=base_url('leger/cetak_leger');?>" method="post">
             <div class="box-header">
                 <div class="row">
                     <div class="col-md-2">
