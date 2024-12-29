@@ -29,7 +29,7 @@ class Leger extends CI_Controller
   public function index()
   {
     $data['report'] = true;
-    $data['content'] = 'raport_leger';
+    $data['content'] = 'leger';
     $this->load->view('index',$data);
   }
 

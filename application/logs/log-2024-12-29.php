@@ -17153,3 +17153,148 @@ INFO - 2024-12-29 14:27:06 --> Controller Class Initialized
 INFO - 2024-12-29 14:27:06 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\cetak_leger.php
 INFO - 2024-12-29 14:27:06 --> Final output sent to browser
 DEBUG - 2024-12-29 14:27:06 --> Total execution time: 0.0855
+INFO - 2024-12-29 20:34:14 --> Config Class Initialized
+INFO - 2024-12-29 20:34:14 --> Hooks Class Initialized
+DEBUG - 2024-12-29 20:34:14 --> UTF-8 Support Enabled
+INFO - 2024-12-29 20:34:14 --> Utf8 Class Initialized
+INFO - 2024-12-29 20:34:14 --> URI Class Initialized
+DEBUG - 2024-12-29 20:34:14 --> No URI present. Default controller set.
+INFO - 2024-12-29 20:34:14 --> Router Class Initialized
+INFO - 2024-12-29 20:34:14 --> Output Class Initialized
+INFO - 2024-12-29 20:34:14 --> Security Class Initialized
+DEBUG - 2024-12-29 20:34:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-29 20:34:14 --> Input Class Initialized
+INFO - 2024-12-29 20:34:14 --> Language Class Initialized
+INFO - 2024-12-29 20:34:14 --> Loader Class Initialized
+INFO - 2024-12-29 20:34:14 --> Helper loaded: url_helper
+INFO - 2024-12-29 20:34:14 --> Helper loaded: nokencode_helper
+INFO - 2024-12-29 20:34:14 --> Database Driver Class Initialized
+INFO - 2024-12-29 20:34:14 --> Session: Class initialized using 'database' driver.
+INFO - 2024-12-29 20:34:14 --> Helper loaded: form_helper
+INFO - 2024-12-29 20:34:14 --> Form Validation Class Initialized
+DEBUG - 2024-12-29 20:34:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-29 20:34:14 --> Controller Class Initialized
+INFO - 2024-12-29 20:34:14 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\login.php
+INFO - 2024-12-29 20:34:14 --> Final output sent to browser
+DEBUG - 2024-12-29 20:34:14 --> Total execution time: 0.1844
+INFO - 2024-12-29 20:34:24 --> Config Class Initialized
+INFO - 2024-12-29 20:34:24 --> Hooks Class Initialized
+DEBUG - 2024-12-29 20:34:24 --> UTF-8 Support Enabled
+INFO - 2024-12-29 20:34:24 --> Utf8 Class Initialized
+INFO - 2024-12-29 20:34:24 --> URI Class Initialized
+DEBUG - 2024-12-29 20:34:24 --> No URI present. Default controller set.
+INFO - 2024-12-29 20:34:24 --> Router Class Initialized
+INFO - 2024-12-29 20:34:24 --> Output Class Initialized
+INFO - 2024-12-29 20:34:24 --> Security Class Initialized
+DEBUG - 2024-12-29 20:34:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-29 20:34:24 --> Input Class Initialized
+INFO - 2024-12-29 20:34:24 --> Language Class Initialized
+INFO - 2024-12-29 20:34:24 --> Loader Class Initialized
+INFO - 2024-12-29 20:34:24 --> Helper loaded: url_helper
+INFO - 2024-12-29 20:34:24 --> Helper loaded: nokencode_helper
+INFO - 2024-12-29 20:34:24 --> Database Driver Class Initialized
+INFO - 2024-12-29 20:34:24 --> Session: Class initialized using 'database' driver.
+INFO - 2024-12-29 20:34:24 --> Helper loaded: form_helper
+INFO - 2024-12-29 20:34:24 --> Form Validation Class Initialized
+DEBUG - 2024-12-29 20:34:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-29 20:34:24 --> Controller Class Initialized
+INFO - 2024-12-29 20:34:24 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2024-12-29 20:34:24 --> Config Class Initialized
+INFO - 2024-12-29 20:34:24 --> Hooks Class Initialized
+DEBUG - 2024-12-29 20:34:24 --> UTF-8 Support Enabled
+INFO - 2024-12-29 20:34:24 --> Utf8 Class Initialized
+INFO - 2024-12-29 20:34:24 --> URI Class Initialized
+INFO - 2024-12-29 20:34:24 --> Router Class Initialized
+INFO - 2024-12-29 20:34:24 --> Output Class Initialized
+INFO - 2024-12-29 20:34:24 --> Security Class Initialized
+DEBUG - 2024-12-29 20:34:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-29 20:34:24 --> Input Class Initialized
+INFO - 2024-12-29 20:34:24 --> Language Class Initialized
+INFO - 2024-12-29 20:34:24 --> Loader Class Initialized
+INFO - 2024-12-29 20:34:24 --> Helper loaded: url_helper
+INFO - 2024-12-29 20:34:24 --> Helper loaded: nokencode_helper
+INFO - 2024-12-29 20:34:24 --> Database Driver Class Initialized
+INFO - 2024-12-29 20:34:24 --> Session: Class initialized using 'database' driver.
+INFO - 2024-12-29 20:34:24 --> Helper loaded: form_helper
+INFO - 2024-12-29 20:34:24 --> Form Validation Class Initialized
+DEBUG - 2024-12-29 20:34:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-29 20:34:24 --> Controller Class Initialized
+INFO - 2024-12-29 20:34:24 --> Model "User_m" initialized
+INFO - 2024-12-29 20:34:24 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\alert.php
+INFO - 2024-12-29 20:34:24 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\dashboard.php
+INFO - 2024-12-29 20:34:24 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\index.php
+INFO - 2024-12-29 20:34:24 --> Final output sent to browser
+DEBUG - 2024-12-29 20:34:24 --> Total execution time: 0.1712
+INFO - 2024-12-29 20:35:22 --> Config Class Initialized
+INFO - 2024-12-29 20:35:22 --> Hooks Class Initialized
+DEBUG - 2024-12-29 20:35:22 --> UTF-8 Support Enabled
+INFO - 2024-12-29 20:35:22 --> Utf8 Class Initialized
+INFO - 2024-12-29 20:35:22 --> URI Class Initialized
+INFO - 2024-12-29 20:35:22 --> Router Class Initialized
+INFO - 2024-12-29 20:35:22 --> Output Class Initialized
+INFO - 2024-12-29 20:35:22 --> Security Class Initialized
+DEBUG - 2024-12-29 20:35:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-29 20:35:22 --> Input Class Initialized
+INFO - 2024-12-29 20:35:22 --> Language Class Initialized
+INFO - 2024-12-29 20:35:22 --> Loader Class Initialized
+INFO - 2024-12-29 20:35:22 --> Helper loaded: url_helper
+INFO - 2024-12-29 20:35:22 --> Helper loaded: nokencode_helper
+INFO - 2024-12-29 20:35:22 --> Database Driver Class Initialized
+INFO - 2024-12-29 20:35:22 --> Session: Class initialized using 'database' driver.
+INFO - 2024-12-29 20:35:22 --> Helper loaded: form_helper
+INFO - 2024-12-29 20:35:22 --> Form Validation Class Initialized
+DEBUG - 2024-12-29 20:35:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-29 20:35:22 --> Controller Class Initialized
+INFO - 2024-12-29 20:35:22 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\alert.php
+INFO - 2024-12-29 20:35:22 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\raport_leger.php
+INFO - 2024-12-29 20:35:22 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\index.php
+INFO - 2024-12-29 20:35:22 --> Final output sent to browser
+DEBUG - 2024-12-29 20:35:22 --> Total execution time: 0.0674
+INFO - 2024-12-29 20:35:29 --> Config Class Initialized
+INFO - 2024-12-29 20:35:29 --> Hooks Class Initialized
+DEBUG - 2024-12-29 20:35:29 --> UTF-8 Support Enabled
+INFO - 2024-12-29 20:35:29 --> Utf8 Class Initialized
+INFO - 2024-12-29 20:35:29 --> URI Class Initialized
+INFO - 2024-12-29 20:35:29 --> Router Class Initialized
+INFO - 2024-12-29 20:35:29 --> Output Class Initialized
+INFO - 2024-12-29 20:35:29 --> Security Class Initialized
+DEBUG - 2024-12-29 20:35:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-29 20:35:29 --> Input Class Initialized
+INFO - 2024-12-29 20:35:29 --> Language Class Initialized
+INFO - 2024-12-29 20:35:29 --> Loader Class Initialized
+INFO - 2024-12-29 20:35:29 --> Helper loaded: url_helper
+INFO - 2024-12-29 20:35:29 --> Helper loaded: nokencode_helper
+INFO - 2024-12-29 20:35:29 --> Database Driver Class Initialized
+INFO - 2024-12-29 20:35:29 --> Session: Class initialized using 'database' driver.
+INFO - 2024-12-29 20:35:29 --> Helper loaded: form_helper
+INFO - 2024-12-29 20:35:29 --> Form Validation Class Initialized
+DEBUG - 2024-12-29 20:35:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-29 20:35:29 --> Controller Class Initialized
+INFO - 2024-12-29 20:35:29 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\cetak_leger.php
+INFO - 2024-12-29 20:35:29 --> Final output sent to browser
+DEBUG - 2024-12-29 20:35:29 --> Total execution time: 0.0800
+INFO - 2024-12-29 20:36:41 --> Config Class Initialized
+INFO - 2024-12-29 20:36:41 --> Hooks Class Initialized
+DEBUG - 2024-12-29 20:36:41 --> UTF-8 Support Enabled
+INFO - 2024-12-29 20:36:41 --> Utf8 Class Initialized
+INFO - 2024-12-29 20:36:41 --> URI Class Initialized
+INFO - 2024-12-29 20:36:41 --> Router Class Initialized
+INFO - 2024-12-29 20:36:41 --> Output Class Initialized
+INFO - 2024-12-29 20:36:41 --> Security Class Initialized
+DEBUG - 2024-12-29 20:36:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-29 20:36:41 --> Input Class Initialized
+INFO - 2024-12-29 20:36:41 --> Language Class Initialized
+INFO - 2024-12-29 20:36:41 --> Loader Class Initialized
+INFO - 2024-12-29 20:36:41 --> Helper loaded: url_helper
+INFO - 2024-12-29 20:36:41 --> Helper loaded: nokencode_helper
+INFO - 2024-12-29 20:36:41 --> Database Driver Class Initialized
+INFO - 2024-12-29 20:36:41 --> Session: Class initialized using 'database' driver.
+INFO - 2024-12-29 20:36:41 --> Helper loaded: form_helper
+INFO - 2024-12-29 20:36:41 --> Form Validation Class Initialized
+DEBUG - 2024-12-29 20:36:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-29 20:36:41 --> Controller Class Initialized
+INFO - 2024-12-29 20:36:41 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\alert.php
+INFO - 2024-12-29 20:36:41 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\leger.php
+INFO - 2024-12-29 20:36:41 --> File loaded: C:\Users\Beelink\Downloads\PROJECT\ERAPOTS\eraports\views\index.php
+INFO - 2024-12-29 20:36:41 --> Final output sent to browser
+DEBUG - 2024-12-29 20:36:41 --> Total execution time: 0.6108
