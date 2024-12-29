@@ -36,8 +36,8 @@ class Leger extends CI_Controller
   public function cetak()
   {
     $data['report'] = true;
-    $data['content'] = 'cetak_leger';
-    $this->load->view('index',$data);
+    // $data['content'] = 'cetak_leger';
+    $this->load->view('cetak_leger',$data);
   }
 
 }
