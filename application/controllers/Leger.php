@@ -24,6 +24,8 @@ class Leger extends CI_Controller
   public function __construct()
   {
     parent::__construct();
+    is_logged_in();
+    $this->load->model('kelas_m');
   }
 
   public function index()
@@ -42,6 +44,20 @@ class Leger extends CI_Controller
     $idtahun_akademik = $post['idtahun_akademik'];
     $semester         = $post['semester'];
     $idkelas          = $post['idkelas'];
+
+    $data['idtahun_akademik']  = $idtahun_akademik;
+    $data['semester']           = $semester;
+    $data['idkelas']            = $idkelas;
+
+    if($idtahun_akademik) {
+      $data['tahun']    = $this->db->get_where('tahun_akademik', ['idtahun_akademik' => $idtahun_akademik])->row();
+    }
+
+    $data['semester'] = $semester;
+    
+    if($idkelas) {
+      $data['kelas'] = $this->db->get_where('kelas', ['idkelas' => $idkelas])->row();
+    }
 
     $sqlWhere = '';
     if(isset($post)){
@@ -68,8 +84,15 @@ class Leger extends CI_Controller
     GROUP BY c.nama";
     $query = $this->db->query($sql);
     $data['data'] = $query->result();
+    $data['controller'] = $this;
+    // echo json_encode($data); die();
 
     $this->load->view('cetak_leger',$data);
+  }
+
+  public function getKitab($idmapel, $idtahun_akademik) {
+    $query = $this->db->get_where('kitab', ['id_mapel' => $idmapel, 'id_tahun_akademik' => $idtahun_akademik])->row();
+    return $query;
   }
 
 }

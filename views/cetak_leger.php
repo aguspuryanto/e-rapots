@@ -86,8 +86,8 @@
 
         </div>
 
-        <h2 class="text-center">Leger Madrasah Diniyah Nurul Islam Kelas</h2>
-        <p class="text-center">Semester GANJIL Tahun Pelajaran 2024/2025</p>
+        <h2 class="text-center">Leger Madrasah Diniyah Nurul Islam Kelas <?= $kelas->kelas_nama; ?></h2>
+        <p class="text-center">Semester <?= $semester; ?> Tahun Pelajaran <?=$tahun->tahun_akademik; ?></p>
         <table class="table table-bordered table-striped">
             <thead>
                 <tr>
@@ -109,14 +109,14 @@
                     <th rowspan="2">Rank</th>
                 </tr>
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th><?= $controller->getKitab(6, $idtahun_akademik)->name; ?></th>
+                    <th><?= $controller->getKitab(7, $idtahun_akademik)->name; ?></th>
+                    <th><?= $controller->getKitab(8, $idtahun_akademik)->name; ?></th>
+                    <th><?= $controller->getKitab(9, $idtahun_akademik)->name; ?></th>
+                    <th><?= $controller->getKitab(10, $idtahun_akademik)->name; ?></th>
+                    <th><?= $controller->getKitab(11, $idtahun_akademik)->name; ?></th>
+                    <th><?= $controller->getKitab(12, $idtahun_akademik)->name; ?></th>
+                    <th><?= $controller->getKitab(13, $idtahun_akademik)->name; ?></th>
                     <th>Ibadah Amaliyah 2</th>
                     <th></th>
                 </tr>
@@ -150,5 +150,5 @@
 </html>
 
 <script>
-window.print();
+// window.print();
 </script>
