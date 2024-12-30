@@ -26,6 +26,7 @@ class Leger extends CI_Controller
     parent::__construct();
     is_logged_in();
     $this->load->model('kelas_m');
+    $this->load->model('mapel_m');
   }
 
   public function index()
@@ -84,8 +85,9 @@ class Leger extends CI_Controller
     GROUP BY c.nama";
     $query = $this->db->query($sql);
     $data['data'] = $query->result();
+    $data['mapel'] = $this->mapel_m->getData();
     $data['controller'] = $this;
-    // echo json_encode($data); die();
+    // echo json_encode($data);
 
     $this->load->view('cetak_leger',$data);
   }

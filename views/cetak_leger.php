@@ -94,31 +94,17 @@
                     <th rowspan="2">No.</th>
                     <th rowspan="2">NIS</th>
                     <th rowspan="2">Nama</th>
-                    <th>Al-Quran</th>
-                    <th>Al-Quran Tafsir</th>
-                    <th>Ilmu Hadits</th>
-                    <th>Tauhid</th>
-                    <th>Adab Akhlak</th>
-                    <th>Fiqih</th>
-                    <th>Sejarah Islam</th>
-                    <th>Nahwu Sharaf</th>
-                    <th>Ibadah</th>
-                    <th>Imlak</th>
+                    <?php foreach($mapel as $mp) {
+                    echo '<th>' . $mp->mapel_nama . '</th>';
+                    } ?>
                     <th rowspan="2">Jumlah</th>
                     <th rowspan="2">Rata</th>
                     <th rowspan="2">Rank</th>
                 </tr>
                 <tr>
-                    <th><?= $controller->getKitab(6, $idtahun_akademik)->name; ?></th>
-                    <th><?= $controller->getKitab(7, $idtahun_akademik)->name; ?></th>
-                    <th><?= $controller->getKitab(8, $idtahun_akademik)->name; ?></th>
-                    <th><?= $controller->getKitab(9, $idtahun_akademik)->name; ?></th>
-                    <th><?= $controller->getKitab(10, $idtahun_akademik)->name; ?></th>
-                    <th><?= $controller->getKitab(11, $idtahun_akademik)->name; ?></th>
-                    <th><?= $controller->getKitab(12, $idtahun_akademik)->name; ?></th>
-                    <th><?= $controller->getKitab(13, $idtahun_akademik)->name; ?></th>
-                    <th>Ibadah Amaliyah 2</th>
-                    <th></th>
+                    <?php foreach($mapel as $mp) {
+                    echo '<th>' . $controller->getKitab($mp->idmapel, $idtahun_akademik)->name . '</th>';
+                    } ?>
                 </tr>
             </thead>
             <tbody>
