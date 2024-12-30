@@ -39,6 +39,14 @@
     .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
         border: 1px solid #000000; /* Border pada cell di dalam tabel**/
     }
+
+    @media print{
+        .table thead tr th, .table tbody tr td, .table tfoot tr td{
+            border-width: 1px !important;
+            border-style: solid !important;
+            border-color: #000 !important;
+        }
+    }
     
     @page {
         size: 25cm 35.7cm;

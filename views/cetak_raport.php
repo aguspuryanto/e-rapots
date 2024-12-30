@@ -44,6 +44,14 @@ error_reporting(0);
     .table-bordered td, .table-bordered th {
         border: 2px solid #000000; /* Border pada cell */
     }
+
+    @media print{
+        .table thead tr th, .table tbody tr td, .table tfoot tr td{
+            border-width: 1px !important;
+            border-style: solid !important;
+            border-color: #000 !important;
+        }
+    }
     </style>
 </head>
 

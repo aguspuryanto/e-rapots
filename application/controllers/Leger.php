@@ -37,6 +37,17 @@ class Leger extends CI_Controller
   {
     $data['report'] = true;
     // $data['content'] = 'cetak_leger';
+    $post = $this->input->post();
+    // echo json_encode($post);
+    $idtahun_akademik = $post['idtahun_akademik'];
+    $semester         = $post['semester'];
+    $idkelas          = $post['idkelas'];
+
+    $sqlWhere = '';
+    if(isset($post)){
+      $sqlWhere = " WHERE b.idtahun_akademik = '$idtahun_akademik' AND b.semester = '$semester' AND b.idkelas = '$idkelas'";
+    }
+
     $sql = "SELECT c.nama, c.nis,
       MAX(CASE WHEN a.idmapel = '6' THEN b.nilai_akhir ELSE 0 END) AS al_quran,
       MAX(CASE WHEN a.idmapel = '7' THEN b.nilai_akhir ELSE 0 END) AS tafsir,
@@ -53,7 +64,7 @@ class Leger extends CI_Controller
       RANK() OVER (ORDER BY AVG(b.nilai_akhir) DESC) AS peringkat
     FROM mapel a
     JOIN nilai b ON b.idmapel = a.idmapel
-    JOIN siswa c ON c.idsiswa = b.idsiswa
+    JOIN siswa c ON c.idsiswa = b.idsiswa $sqlWhere
     GROUP BY c.nama";
     $query = $this->db->query($sql);
     $data['data'] = $query->result();
